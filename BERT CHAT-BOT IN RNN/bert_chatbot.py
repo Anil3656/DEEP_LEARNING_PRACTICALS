@@ -21,7 +21,7 @@ def set_background(image_path):
     st.markdown(css, unsafe_allow_html=True)
 
 # Call the function to set the background
-set_background(r"D:\Data Science Daily Updates\Senapthi_calss_Notes\DEEP LEARNING CLASS\5.RNN\BERT CHAT-BOT\Bg-2.avif")
+set_background("bg.jpg")
 # Load BERT tokenizer and model
 @st.cache_resource
 def load_bert_model():
@@ -87,4 +87,5 @@ if user_input:
 
 # Footer
 st.markdown("---")
+
 
